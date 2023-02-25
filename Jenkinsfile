@@ -20,7 +20,7 @@ post
 {
 always
 {
-emailext body: 'summary', subject: 'pipeline status', to: 'malaiyaghanshyam@gmail.com'
+emailext body: 'summary', subject: 'pipeline status', to: 'abhaymalaiya1995@gmail.com'
 }
 }
 }
