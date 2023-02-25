@@ -8,7 +8,7 @@ pipeline {
 		      }}
 		stage('Build') {
 	           steps {
-			  sh '/home/codemaster/Documents/Grras/apache-maven-3.8.7/mvn install'
+			  sh '/home/codemaster/Documents/Grras/apache-maven-3.8.7/bin/mvn install'
 	                 }}
 		stage('Deployment'){
 		    steps {
